@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "goalsetter",
   "main": "server.js",
+  "engines": {
+    "node": "14.15.1",
+    "npm": "8.7.0"
+  },
   "scripts": {
     "start": "node backend/server.js",
     "server": "nodemon backend/server.js"
